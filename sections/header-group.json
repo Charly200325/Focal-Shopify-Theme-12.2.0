@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header group",
@@ -8,6 +17,12 @@
         "message-1": {
           "type": "message",
           "settings": {
+            "text": "Announce something here",
+            "learn_more_text": "Learn more",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
           }
         }
       },
@@ -29,13 +44,19 @@
       "type": "header",
       "settings": {
         "enable_sticky_header": true,
-        "logo": "{{ shop.brand.logo }}",
-        "navigation_menu": "main-menu",
-        "header_layout": "logo_left_navigation_center",
+        "logo": "shopify://shop_images/abb76885-3c95-408f-b7db-6f263d493b40_removalai_preview_1_aa03a994-72c1-45eb-8b97-f2b9d1ca01fe_1.png",
+        "logo_max_width": 140,
+        "mobile_logo_max_width": 100,
+        "navigation_menu": "menu",
+        "sidebar_navigation_menu": "",
+        "header_layout": "logo_center_navigation_inline",
         "show_icons": false,
         "reduce_desktop_padding": false,
-        "enable_transparent_header": false,
-        "transparent_header_text_color": "#ffffff"
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "enable_transparent_header": true,
+        "transparent_header_text_color": "#ffffff",
+        "search_menu": ""
       }
     }
   },
