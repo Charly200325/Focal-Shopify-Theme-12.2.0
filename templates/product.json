@@ -162,6 +162,70 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_NDxBVD": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_exwEwY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_20_2.png",
+            "tab_label": "",
+            "subheading": "Elvynor™",
+            "title": "RADIANCE REDÉFINIE",
+            "content": "<p>Elvynor™ n'est pas seulement un soin pour la peau, c'est un style de vie. Laissez notre masque purifiant faire ressortir le meilleur de votre peau, vous permettant de briller en toute confiance.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_exwEwY"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_mhnLJc": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_m4aXkM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/140_d7779186-7c33-4d94-9c1b-9405ff2eead8.jpg",
+            "tab_label": "",
+            "subheading": "Elvynor™",
+            "title": "SCIENTIFIQUEMENT PROUVÉ, INSPIRÉ PAR LA NATURE",
+            "content": "<p>Notre formule avancée enrichie à l'Aloe Vera, au Charbon de Bambou et à l'Acide Hyaluronique est conçue pour éliminer vos points noirs, purifier vos pores, hydrater et revitaliser votre peau de l'intérieur. Aimez votre peau avec Elvynor™</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_m4aXkM"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "product-content": {
       "type": "product-content",
       "disabled": true,
@@ -184,6 +248,8 @@
     "custom_html_LWQbBM",
     "image_with_text_kAmhdJ",
     "gallery_agMj46",
+    "image_with_text_NDxBVD",
+    "image_with_text_mhnLJc",
     "product-content",
     "product-recommendations"
   ]
