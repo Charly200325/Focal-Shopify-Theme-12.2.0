@@ -269,6 +269,7 @@
         "item_fEhJxc": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/07_1.webp",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Mathilde T.",
@@ -283,6 +284,7 @@
         "item_KNcB6X": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/03_f5ce471a-1f27-4fea-86bf-24562d7301de_1.webp",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Quentin B.",
@@ -297,6 +299,7 @@
         "item_ytRLKi": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/nHA2IbseU_mid_1_aa97159b-9ce7-4b7e-bcbe-4b087316b39c.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "SABINE M.",
@@ -311,6 +314,7 @@
         "item_URMNGN": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/AEZ05IS0C_1.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "LAURA P.",
@@ -325,6 +329,7 @@
         "item_RxEBBF": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/04_1.webp",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "Maëlle M.",
@@ -339,6 +344,7 @@
         "item_yqgaMj": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/5CekCx1F9_mid_1.jpg",
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "lukas c.",
@@ -363,13 +369,91 @@
       "settings": {
         "reveal_on_scroll": true,
         "stack_items": false,
-        "subheading": "Subheading",
-        "title": "Multi-column",
+        "subheading": "elvynor™",
+        "title": "QUELQUES RETOURS DE NOS CLIENTS...",
         "content": "",
         "column_alignment": "center",
         "mobile_item_size": "medium",
         "desktop_item_size": "medium",
         "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_7y6Eq4": {
+      "type": "faq",
+      "blocks": {
+        "question_dn6CH6": {
+          "type": "question",
+          "settings": {
+            "title": "Quels sont vos délais de livraison ?",
+            "answer": "<p>Nos délais de livraison varient selon la destination, mais généralement, les commandes sont livrées dans un délai de 5 à 10 jours ouvrables.</p>"
+          }
+        },
+        "question_MnbQjc": {
+          "type": "question",
+          "settings": {
+            "title": "Proposez-vous des retours ou des échanges ?",
+            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
+          }
+        },
+        "question_iaD3rf": {
+          "type": "question",
+          "settings": {
+            "title": "Comment puis-je suivre ma commande ?",
+            "answer": "<p>Une fois votre commande expédiée, vous recevrez un e-mail contenant un numéro de suivi. Vous pourrez l'utiliser pour suivre l'état de votre livraison sur notre site ou sur le site du transporteur.</p>"
+          }
+        },
+        "question_Di8aRe": {
+          "type": "question",
+          "settings": {
+            "title": "Est-il testé dermatologiquement ?",
+            "answer": "<p>Oui, nos produits sont testés sous contrôle dermatologique pour garantir leur sécurité et efficacité.</p>"
+          }
+        },
+        "question_YWJctY": {
+          "type": "question",
+          "settings": {
+            "title": "Quels résultats puis-je attendre ?",
+            "answer": "<p>Points noirs et filaments sébacés éliminés, pores purifiés, une peau plus lisse, nette et éclatante dès les premières applications.</p>"
+          }
+        },
+        "question_H9c8NG": {
+          "type": "question",
+          "settings": {
+            "title": "Le masque contient-il des ingrédients chimiques nocifs ?",
+            "answer": "<p>Non, il est formulé sans parabènes, sulfates ni produits agressifs.</p>"
+          }
+        },
+        "question_FRkBnE": {
+          "type": "question",
+          "settings": {
+            "title": "Combien de fois par semaine devrais-je l’utiliser ?",
+            "answer": "<p>Nous recommandons une utilisation de 1 à 2 fois par semaine pour des résultats optimaux.</p>"
+          }
+        },
+        "question_dfXiYx": {
+          "type": "question",
+          "settings": {
+            "title": "Convient-il à tous les types de peau ?",
+            "answer": "<p>Oui, le masque Elvynor™ est conçu pour tous les types de peau, y compris les plus sensibles.</p><p>Nous recommandons néanmoins de toujours tester le produit sur votre bras ou main avant de l'appliquer sur votre visage.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_dn6CH6",
+        "question_MnbQjc",
+        "question_iaD3rf",
+        "question_Di8aRe",
+        "question_YWJctY",
+        "question_H9c8NG",
+        "question_FRkBnE",
+        "question_dfXiYx"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "<p>Si vous ne trouvez pas la réponse à votre question ici, veuillez nous contacter.</p>",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -400,6 +484,7 @@
     "image_with_text_mhnLJc",
     "image_with_text_overlay_64whdy",
     "multi_column_p9E3Fg",
+    "faq_7y6Eq4",
     "product-content",
     "product-recommendations"
   ]
