@@ -243,12 +243,6 @@
     "faq_FKJLB4": {
       "type": "faq",
       "blocks": {
-        "category_6fHtbg": {
-          "type": "category",
-          "settings": {
-            "title": "Livraison"
-          }
-        },
         "question_tnhXh9": {
           "type": "question",
           "settings": {
@@ -268,12 +262,6 @@
           "settings": {
             "title": "Comment puis-je suivre ma commande ?",
             "answer": "<p>Une fois votre commande expédiée, vous recevrez un e-mail contenant un numéro de suivi. Vous pourrez l'utiliser pour suivre l'état de votre livraison sur notre site ou sur le site du transporteur.</p>"
-          }
-        },
-        "category_kApzQX": {
-          "type": "category",
-          "settings": {
-            "title": "Masque Anti-Points Noirs"
           }
         },
         "question_ipmWtR": {
@@ -299,11 +287,9 @@
         }
       },
       "block_order": [
-        "category_6fHtbg",
         "question_tnhXh9",
         "question_Ae6fbi",
         "question_WRL46y",
-        "category_kApzQX",
         "question_ipmWtR",
         "question_YEYLBd",
         "question_QmgMUm"
