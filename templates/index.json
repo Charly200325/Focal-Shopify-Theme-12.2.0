@@ -61,6 +61,49 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "featured_product_mejHx9": {
+      "type": "featured-product",
+      "blocks": {
+        "quantity_selector_agwDDT": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_WaRijH": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#edb8c5",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "quantity_selector_agwDDT",
+        "buy_buttons_WaRijH"
+      ],
+      "settings": {
+        "product": "lambena-anti-mitesser-maske-von-elvynor™",
+        "subheading": "Subheading",
+        "title": "Featured product",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -354,6 +397,7 @@
   "order": [
     "slideshow",
     "rich_text_4LEnxJ",
+    "featured_product_mejHx9",
     "image-with-text",
     "shop-the-look",
     "blog-posts",
