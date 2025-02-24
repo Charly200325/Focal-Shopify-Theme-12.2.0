@@ -209,6 +209,56 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "custom_html_kQEGdK": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<section id=\"shopify-section-template--23238846808393__timeline_LgjrCt\" class=\"shopify-section section\"><link href=\"//elvynor.com/cdn/shop/t/17/assets/section-timeline.css?v=64400544619885413591739487090\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n<style data-shopify=\"\">.section-template--23238846808393__timeline_LgjrCt-padding {\n    padding-top: 0px;\n    padding-bottom: 32px;\n  }\n\n  @media screen and (min-width: 750px) {\n    .section-template--23238846808393__timeline_LgjrCt-padding {\n      padding-top: 0px;\n      padding-bottom: 64px;\n    }\n  }</style>\n<div id=\"\" class=\"color-background-1 section-template--23238846808393__timeline_LgjrCt-padding\">\n  <div class=\"timeline container container--normal\">\n<div class=\"heading__section center\">\n<p class=\"h3 subheading aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"0\">\n     \n    </p>\n<h2 class=\"heading heading__style--2 video__heading aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"50\"><span></span></h2>\n</div>\n<div class=\"timeline__wrapper timeline__wrapper--switched\">\n<div class=\"timeline__event aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"100\">\n          <p class=\"timeline__subheading\">ÉTÉ 2022</p>\n          <h3 class=\"timeline__heading\"></h3>\n          <p class=\"timeline__text\">Création de Elvynor™ avec pour mission de transformer la routine de soin grâce à des produits innovants et efficaces.</p>\n        </div>\n<div class=\"timeline__event aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"150\">\n          <p class=\"timeline__subheading\">Hiver 2023</p>\n          <h3 class=\"timeline__heading\"></h3>\n          <p class=\"timeline__text\">Lancement du masque enrichi aux plantes naturelles, qui s'impose rapidement comme un essentiel des soins hebdomadaires.</p>\n        </div>\n<div class=\"timeline__event aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"200\">\n          <p class=\"timeline__subheading\">Automne 2024</p>\n          <h3 class=\"timeline__heading\"></h3>\n          <p class=\"timeline__text\">En 2024, grâce aux retours de nos clients, nous avons amélioré la formule de notre masque anti-points noirs pour le rendre encore plus efficace. Nous avons optimisé sa texture pour une application plus facile et une meilleure adhérence, tout en renforçant son action purifiante.</p>\n        </div>\n<div class=\"timeline__event aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"250\">\n          <p class=\"timeline__subheading\">Aujourd'hui</p>\n          <h3 class=\"timeline__heading\"></h3>\n          <p class=\"timeline__text\">Elvynor™ continue de combiner science, innovation et bien-être pour offrir des solutions de soin luxueuses accessibles à tous.</p>\n        </div>\n</div>\n  </div>\n</div>\n</section>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "testimonials_kY6MFa": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_NB7kYR": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        },
+        "testimonial_cGjeCU": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        },
+        "testimonial_R3Kcdx": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_NB7kYR",
+        "testimonial_cGjeCU",
+        "testimonial_R3Kcdx"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -218,6 +268,8 @@
     "image_with_text_iprbJm",
     "image_with_text_Cdw8WP",
     "custom_html_QBqBT9",
-    "gallery_TggCVq"
+    "gallery_TggCVq",
+    "custom_html_kQEGdK",
+    "testimonials_kY6MFa"
   ]
 }
