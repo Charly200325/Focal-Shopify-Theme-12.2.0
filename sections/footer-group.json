@@ -35,7 +35,7 @@
         "item-3": {
           "type": "item",
           "settings": {
-            "icon": "picto-lock",
+            "icon": "picto-love",
             "custom_icon_width": 50,
             "title": "CRUETLY FREE",
             "content": "<p>Notre marque s'engage à prendre soin des animaux et de la planète.</p>"
@@ -44,10 +44,10 @@
         "item-4": {
           "type": "item",
           "settings": {
-            "icon": "picto-email",
+            "icon": "picto-lock",
             "custom_icon_width": 50,
-            "title": "Contact us",
-            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com</p>"
+            "title": "paiements sécurisé",
+            "content": "<p><em>Faites vos achats en toute confiance grâce à notre système de paiement sécurisé.</em></p>"
           }
         }
       },
