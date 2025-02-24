@@ -43,30 +43,18 @@
         "background": "rgba(0,0,0,0)"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "label": "",
-            "button_text": "",
-            "button_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
+    "rich_text_4LEnxJ": {
+      "type": "rich-text",
       "settings": {
-        "subheading": "Your title",
-        "title": "Collection",
-        "content": "",
-        "products_count": 8,
-        "products_per_row": 4,
-        "stack_products": true,
-        "show_cta": false,
+        "subheading": "ELVYNOR™",
+        "title": "OFFREZ À VOTRE PEAU UNE ROUTINE QUI CHANGE TOUT",
+        "content": "<p>Offrez à votre peau le soin qu'elle mérite avec notre masque anti-points noirs Elvynor™. En seulement 10 minutes, sa formule enrichie en actifs puissants élimine toutes les impuretés et vous permet de retrouver une peau lisse et éclatante.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
@@ -365,7 +353,7 @@
   },
   "order": [
     "slideshow",
-    "featured-collections",
+    "rich_text_4LEnxJ",
     "image-with-text",
     "shop-the-look",
     "blog-posts",
