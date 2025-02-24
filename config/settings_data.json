@@ -17,7 +17,7 @@
     "success_color": "#2e9e7b",
     "error_color": "#de2a2a",
     "header_background": "#282828",
-    "footer_background": "#282828",
+    "footer_background": "#000000",
     "footer_text_color": "#ffffff",
     "primary_button_background": "#edb8c5",
     "secondary_button_background": "#f3ff34",

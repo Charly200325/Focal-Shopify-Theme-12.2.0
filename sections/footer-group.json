@@ -69,7 +69,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_26_77e2555c-4b3a-48b3-8871-ffe68b281e75.png",
-            "image_width": 300
+            "image_width": 200
           }
         },
         "links": {
@@ -77,11 +77,19 @@
           "settings": {
             "menu": "menu"
           }
+        },
+        "text_iyNU3k": {
+          "type": "text",
+          "settings": {
+            "title": "Informations",
+            "content": "<p>support@elvynor.com</p>"
+          }
         }
       },
       "block_order": [
         "image_fDtwKE",
-        "links"
+        "links",
+        "text_iyNU3k"
       ],
       "settings": {
         "show_payment_icons": true,
