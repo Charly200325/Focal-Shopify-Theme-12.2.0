@@ -210,6 +210,24 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "rich_text_zqdYrT": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "ELVYNOR™",
+        "title": "Découvrez l’Histoire de Elvynor™",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "custom_html_kQEGdK": {
       "type": "custom-html",
       "settings": {
@@ -269,6 +287,7 @@
     "image_with_text_Cdw8WP",
     "custom_html_QBqBT9",
     "gallery_TggCVq",
+    "rich_text_zqdYrT",
     "custom_html_kQEGdK",
     "testimonials_kY6MFa"
   ]
