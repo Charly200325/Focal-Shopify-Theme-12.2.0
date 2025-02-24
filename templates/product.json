@@ -475,7 +475,7 @@
       "type": "product-recommendations",
       "settings": {
         "subheading": "",
-        "title": "You may also like",
+        "title": "VOUS  POURRIEZ AIMER",
         "recommendations_count": 4,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
