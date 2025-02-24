@@ -248,6 +248,132 @@
         "overlay_opacity": 0
       }
     },
+    "multi_column_p9E3Fg": {
+      "type": "multi-column",
+      "blocks": {
+        "item_zkpyEa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/04_b6a48d9b-3f60-49ed-a40f-2b89e3ac7b04_1.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Hannah P.",
+            "content": "<p>Vu ce produit sur TikTok, vite commandé, assez vite reçu, vite testé. Pas douloureux et on voit effectivement tous les petits points noirs collés sur le petit papier blanc. Très efficace !</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_fEhJxc": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Mathilde T.",
+            "content": "<p>Je commande pour la deuxième fois. Excellent produit, nettoie vraiment bien les pores et retire tous les points noirs.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_KNcB6X": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Quentin B.",
+            "content": "<p>La texture peut surprendre, elle est un peu élastique quand on l étale. Les patchs enlèvent bien les points noirs.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_ytRLKi": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "SABINE M.",
+            "content": "<p>Honnêtement, je ne pensais pas que ça marcherait aussi bien. Maintenant, il fait partie de ma routine.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_URMNGN": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "LAURA P.",
+            "content": "<p>J'adore ce masque ! Il nettoie en profondeur et ma peau reste hydratée. Plus de points noirs et une peau plus lumineuse après l'utilisation. Un incontournable dans ma routine beauté.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_RxEBBF": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Maëlle M.",
+            "content": "<p>Je l’ai vu passer sur TikTok, j’ai voulu tester… et au final, je suis vraiment contente ! Une vraie pépite.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_yqgaMj": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "lukas c.",
+            "content": "<p> La photo parle d'elle même, EFFICACE !</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_zkpyEa",
+        "item_fEhJxc",
+        "item_KNcB6X",
+        "item_ytRLKi",
+        "item_URMNGN",
+        "item_RxEBBF",
+        "item_yqgaMj"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "Subheading",
+        "title": "Multi-column",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "product-content": {
       "type": "product-content",
       "disabled": true,
@@ -273,6 +399,7 @@
     "image_with_text_NDxBVD",
     "image_with_text_mhnLJc",
     "image_with_text_overlay_64whdy",
+    "multi_column_p9E3Fg",
     "product-content",
     "product-recommendations"
   ]
