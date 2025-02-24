@@ -104,41 +104,30 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "image-with-text": {
+    "image_with_text_iprbJm": {
       "type": "image-with-text",
       "blocks": {
-        "item-1": {
+        "item_PXRHq3": {
           "type": "item",
           "settings": {
-            "tab_label": "Text 1",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Text 2",
-            "subheading": "Subheading",
-            "title": "Image with text",
-            "content": "<p>Use image with text to give your customers insight into your brand. Select imagery and text that relates to your style and story.</p>",
+            "image": "shopify://shop_images/large-1713430033-378c85d3214d7caddfa009571c9c094b_1.jpg",
+            "tab_label": "",
+            "subheading": "ELVYNOR™",
+            "title": "UNE FORMULE UNIQUE POUR DES RÉSULTATS RÉELS",
+            "content": "<p>Enrichi à l'Aloe Vera, au Charbon de Bambou et à l'Acide Hyaluronique, Elvynor™ élimine efficacement les points noirs en seulement 10 minutes, pour révéler une peau lisse, fraîche et éclatante.</p>",
             "button_text": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2"
+        "item_PXRHq3"
       ],
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "background_overlap": "image",
-        "image_position": "left",
+        "image_position": "right",
         "text_alignment": "center",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
@@ -398,7 +387,7 @@
     "slideshow",
     "rich_text_4LEnxJ",
     "featured_product_mejHx9",
-    "image-with-text",
+    "image_with_text_iprbJm",
     "shop-the-look",
     "blog-posts",
     "image-with-text-block",
