@@ -136,6 +136,38 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "image_with_text_Cdw8WP": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_W4tVYd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2020.01.181218BeautyCampaignshoot2971-1024x1536_1.jpg",
+            "tab_label": "",
+            "subheading": "ELVYNOR™",
+            "title": "TESTÉ ET APPROUVÉ PAR DES EXPERTS",
+            "content": "<p>Développé avec des dermatologues, le masque Elvynor™ est parfaitement adapté à tous les types de peau, garantissant des résultats visibles dès les premières applications.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_W4tVYd"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "shop-the-look": {
       "type": "shop-the-look",
       "blocks": {
@@ -388,6 +420,7 @@
     "rich_text_4LEnxJ",
     "featured_product_mejHx9",
     "image_with_text_iprbJm",
+    "image_with_text_Cdw8WP",
     "shop-the-look",
     "blog-posts",
     "image-with-text-block",
