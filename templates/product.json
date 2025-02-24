@@ -70,6 +70,24 @@
         "transition_effect": "slide"
       }
     },
+    "rich_text_CfLm49": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Elvynor™",
+        "title": "LE SECRET D'UNE PEAU RADIEUSE",
+        "content": "<p><em>Découvrez pourquoi des milliers de femmes ont adopté le masque Elvynor™. Sa formule unique associe des ingrédients premium pour sublimer chaque type de peau et éliminer les filaments sébacés efficacement dès la </em>première<em> utilisation.</em></p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "product-content": {
       "type": "product-content",
       "disabled": true,
@@ -88,6 +106,7 @@
   },
   "order": [
     "main",
+    "rich_text_CfLm49",
     "product-content",
     "product-recommendations"
   ]
