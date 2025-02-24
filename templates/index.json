@@ -240,40 +240,78 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "testimonials_kY6MFa": {
-      "type": "testimonials",
+    "faq_FKJLB4": {
+      "type": "faq",
       "blocks": {
-        "testimonial_NB7kYR": {
-          "type": "testimonial",
+        "category_6fHtbg": {
+          "type": "category",
           "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
+            "title": "Livraison"
           }
         },
-        "testimonial_cGjeCU": {
-          "type": "testimonial",
+        "question_tnhXh9": {
+          "type": "question",
           "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
+            "title": "Quels sont vos délais de livraison ?",
+            "answer": "<p>Nos délais de livraison varient selon la destination, mais généralement, les commandes sont livrées dans un délai de 5 à 10 jours ouvrables.</p>"
           }
         },
-        "testimonial_R3Kcdx": {
-          "type": "testimonial",
+        "question_Ae6fbi": {
+          "type": "question",
           "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
+            "title": "Proposez-vous des retours ou des échanges ?",
+            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
+          }
+        },
+        "question_WRL46y": {
+          "type": "question",
+          "settings": {
+            "title": "Comment puis-je suivre ma commande ?",
+            "answer": "<p>Une fois votre commande expédiée, vous recevrez un e-mail contenant un numéro de suivi. Vous pourrez l'utiliser pour suivre l'état de votre livraison sur notre site ou sur le site du transporteur.</p>"
+          }
+        },
+        "category_kApzQX": {
+          "type": "category",
+          "settings": {
+            "title": "Masque Anti-Points Noirs"
+          }
+        },
+        "question_ipmWtR": {
+          "type": "question",
+          "settings": {
+            "title": "Le masque contient-il des ingrédients chimiques nocifs ?",
+            "answer": "<p>Non, il est formulé sans parabènes, sulfates ni produits agressifs.</p>"
+          }
+        },
+        "question_YEYLBd": {
+          "type": "question",
+          "settings": {
+            "title": "Combien de fois par semaine devrais-je l’utiliser ?",
+            "answer": "<p>Nous recommandons une utilisation de 1 à 2 fois par semaine pour des résultats optimaux.</p>"
+          }
+        },
+        "question_QmgMUm": {
+          "type": "question",
+          "settings": {
+            "title": "Convient-il à tous les types de peau ?",
+            "answer": "<p>Oui, le masque Elvynor™ est conçu pour tous les types de peau, y compris les plus sensibles.</p><p>Nous recommandons néanmoins de toujours tester le produit sur votre bras ou main avant de l'appliquer sur votre visage.</p>"
           }
         }
       },
       "block_order": [
-        "testimonial_NB7kYR",
-        "testimonial_cGjeCU",
-        "testimonial_R3Kcdx"
+        "category_6fHtbg",
+        "question_tnhXh9",
+        "question_Ae6fbi",
+        "question_WRL46y",
+        "category_kApzQX",
+        "question_ipmWtR",
+        "question_YEYLBd",
+        "question_QmgMUm"
       ],
       "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "",
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "<p>Si vous ne trouvez pas la réponse à votre question ici, veuillez nous contacter.</p>",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -289,6 +327,6 @@
     "gallery_TggCVq",
     "rich_text_zqdYrT",
     "custom_html_kQEGdK",
-    "testimonials_kY6MFa"
+    "faq_FKJLB4"
   ]
 }
