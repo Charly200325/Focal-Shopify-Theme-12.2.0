@@ -39,13 +39,20 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
+        },
+        "text_BjJcVp": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><strong>Masque anti-points noirs Elvynor™</strong></h2><h3><strong>Offrez à votre peau une véritable transformation et révélez tout son éclat.</strong> 🌙 <strong>✨</strong></h3><p>Réinventez votre routine beauté avec <strong>le Masque Anti-Points Noirs Elvynor™</strong> , le secret ultime pour une peau nette, lisse et éclatante. Ce masque innovant est conçu pour ouvrir en profondeur les pores obstrués et éliminer efficacement les points noirs et les impuretés. Votre peau reste douce, nette et revitalisée après chaque utilisation. ✨</p><h3><strong>Pourquoi choisir le masque Elvynor™ ?</strong></h3><p><strong> </strong>✔ <strong>Nettoyage intensif</strong> : La formule enrichie en ingrédients naturels ouvre les pores et élimine les impuretés.</p><p>✔ <strong>Réduction des points noirs</strong> : Élimine jusqu'à 98% des points noirs dès la première application.</p><p>✔ <strong>Peau apaisée</strong> : Grâce à l'extrait d'aloe vera, votre peau est hydratée et apaisée.</p><p>✔ <strong>Contrôle du sébum</strong> : Aide à contrôler l’excès de sébum pour une peau mate et éclatante – toute la journée.</p><h3>Mode d'emploi pour un résultat optimal :</h3><p>1. Placez le bocal fermé dans un bain-marie pendant une dizaine de minutes pour permettre au liquide de se liquéfier.</p><p>2. Nettoyez votre visage avec de l’eau tiède ou placez une serviette chaude sur votre visage pour ouvrir les pores.</p><p>3. Appliquer une fine couche du masque sur les zones du visage à traiter.</p><p>4. Placez les bandes sur le masque appliqué.</p><p>5. Laissez sécher 10 minutes.</p><p>6. Retirez délicatement les bandes pour éliminer les impuretés et révéler une peau claire et éclatante.</p><h3><strong>Convient à tous les types de peau</strong></h3><p>Le <strong>masque Elvynor™</strong> est conçu pour<br/>répondre aux besoins des peaux sensibles, sèches, grasses ou mixtes. Formulé sans parabènes ni produits chimiques agressifs, il respecte votre peau et la chouchoute comme elle le mérite.</p><h3><strong>Le luxe au quotidien à la simple pression d'un bouton</strong></h3><p>Offrez à votre peau le soin qu'elle mérite avec le masque anti-points noirs de Lambéna, inspiré des meilleurs instituts de beauté. Avec Elvinor™<br/>votre routine beauté devient un véritable rituel de nettoyage et d’éclat.</p><p><strong>✨ Votre peau n’a jamais été aussi belle ! Commandez maintenant et<br/>laissez les effets bénéfiques des plantes agir sur votre peau avec Elvynor™. ✨</strong></p>"
+          }
         }
       },
       "block_order": [
         "text_Lb3qnK",
         "quantity_selector",
         "kaching_bundles_app_block_fcBciY",
-        "buy_buttons"
+        "buy_buttons",
+        "text_BjJcVp"
       ],
       "settings": {
         "show_vendor": false,
@@ -53,7 +60,7 @@
         "show_taxes_included": false,
         "show_product_rating": false,
         "show_sticky_add_to_cart": true,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "help_page": "",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
@@ -65,15 +72,7 @@
     },
     "product-content": {
       "type": "product-content",
-      "blocks": {
-        "description": {
-          "type": "description",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "description"
-      ],
+      "disabled": true,
       "settings": {}
     },
     "product-recommendations": {
