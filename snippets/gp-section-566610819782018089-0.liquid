@@ -1017,21 +1017,13 @@ font-family: "Hanken Grotesk" !important;
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   document.addEventListener('product:added-to-cart', function () {
-    const drawer = document.querySelector('.drawer');
-    if(drawer) {
-      if (typeof drawer.open === 'boolean') {
-        drawer.open = true;
-      } else if (typeof drawer.open === 'function') {
-        drawer.open();
-      } else {
-        drawer.classList.add('is-open');
-      }
-    } else {
-      console.warn('Drawer non trouvé');
-    }
+    // Redirige vers la page panier Shopify
+    window.location.href = '/cart';
   });
 });
 </script>
+
+
 
 
 
