@@ -1,0 +1,361 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "text_position": "bottom_center",
+            "subheading": "ELVYNOR™ – RÉVÉLEZ LA BEAUTÉ NATURELLE DE VOTRE PEAU.",
+            "title": "",
+            "button_1_text": "Découvrir",
+            "button_1_link": "shopify://products/lambena-anti-mitesser-maske-von-elvynor™",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#edb8c5",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#e597aa",
+            "overlay_opacity": 18
+          }
+        },
+        "image_imnHpp": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide title",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "image_imnHpp"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_collections_YNkrY3": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_876d4Q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_876d4Q"
+      ],
+      "settings": {
+        "subheading": "Your title",
+        "title": "Collection",
+        "content": "",
+        "products_count": 36,
+        "products_per_row": 4,
+        "stack_products": false,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_4LEnxJ": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "ELVYNOR™",
+        "title": "OFFREZ À VOTRE PEAU UNE ROUTINE QUI CHANGE TOUT",
+        "content": "<p>Offrez à votre peau le soin qu'elle mérite avec notre masque anti-points noirs Elvynor™. En seulement 10 minutes, sa formule enrichie en actifs puissants élimine toutes les impuretés et vous permet de retrouver une peau lisse et éclatante.</p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_product_mejHx9": {
+      "type": "featured-product",
+      "blocks": {
+        "quantity_selector_agwDDT": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_WaRijH": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#edb8c5",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "quantity_selector_agwDDT",
+        "buy_buttons_WaRijH"
+      ],
+      "settings": {
+        "product": "lambena-anti-mitesser-maske-von-elvynor™",
+        "subheading": "",
+        "title": "",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_iprbJm": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_PXRHq3": {
+          "type": "item",
+          "settings": {
+            "tab_label": "",
+            "subheading": "ELVYNOR™",
+            "title": "UNE FORMULE UNIQUE POUR DES RÉSULTATS RÉELS",
+            "content": "<p>Enrichi à l'Aloe Vera, au Charbon de Bambou et à l'Acide Hyaluronique, Elvynor™ élimine efficacement les points noirs en seulement 10 minutes, pour révéler une peau lisse, fraîche et éclatante.</p>",
+            "button_text": "OBTENIR",
+            "button_link": "shopify://products/lambena-anti-mitesser-maske-von-elvynor™"
+          }
+        }
+      },
+      "block_order": [
+        "item_PXRHq3"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_Cdw8WP": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_W4tVYd": {
+          "type": "item",
+          "settings": {
+            "tab_label": "",
+            "subheading": "ELVYNOR™",
+            "title": "TESTÉ ET APPROUVÉ PAR DES EXPERTS",
+            "content": "<p>Développé avec des dermatologues, le masque Elvynor™ est parfaitement adapté à tous les types de peau, garantissant des résultats visibles dès les premières applications.</p>",
+            "button_text": "OBTENIR",
+            "button_link": "shopify://products/lambena-anti-mitesser-maske-von-elvynor™"
+          }
+        }
+      },
+      "block_order": [
+        "item_W4tVYd"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_QBqBT9": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "ELVYNOR™",
+        "title": "LES CHIFFRES QUI FONT NOTRE IDENTITÉ",
+        "html": "<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Glowy - Confiance</title>\n<link href=\"https://fonts.googleapis.com/css2?family=Garamond&amp;display=swap\" rel=\"stylesheet\">\n<style>\n    \n    .subheader {\n        font-size: 18px;\n        color: #555;\n        margin-top: 10px;\n        font-weight: 400;\n    }\n    .stats-container {\n        display: flex;\n        justify-content: space-between;\n        gap: 20px;\n        margin-bottom: 30px;\nflex-wrap: wrap;\n    }\n    .stat-box {\n        background-color: #f5f5f5;\n        border-radius: 10px;\n        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);\n        padding-left: 20px;\n        padding-right: 20px;\n        width: 49%;  /* Réduit la largeur des boîtes sur ordinateur */\n        text-align: center;\n        display: flex;\n        flex-direction: column;\n        justify-content: center;\n        overflow: hidden;\n        height: auto; /* Augmente la hauteur des boîtes */\n        opacity: 0;\n        transform: translateY(30px);\n        transition: opacity 0.6s, transform 0.6s;\n    }\n    .stat-box.visible {\n        opacity: 1;\n        transform: translateY(0);\n    }\n    .stat-number {\n        font-size: 48px;\n        font-weight: 700;\n        color: #333;\n        margin-bottom: 7px;\n    }\n    .stat-text {\n        font-size: 14px;\n        color: #555;\n        line-height: 1.5;\n        font-weight: bold;\n        font-family: 'Garamond', serif;\n    }\n    .bold-text {\n        font-weight: 700;\n    }\n    @media (max-width: 750px) {\n        .stats-container {\n            gap: 10px;\n        }\n        .stat-box {\n            width: 100%;  /* Change la largeur pour qu'elles soient empilées */\n            padding: 15px;\n            height: auto; /* Ajuste la hauteur sur mobile */\n        }\n        .stat-number {\n            font-size: 36px;\n        }\n        .stat-text {\n            font-size: 12px;\n        }\n    }\n</style>\n\n<div class=\"stats-container\">\n    <div class=\"stat-box\">\n        <div id=\"stat1\" class=\"stat-number\">0%</div>\n        <div class=\"stat-text\">\n            <span class=\"bold-text\"></span>de nos clients constatent une amélioration visible de leur peau dès les premières applications, avec une réduction visible des points noirs et un teint plus lisse.\n        </div>\n    </div>\n    <div class=\"stat-box\">\n        <div id=\"stat2\" class=\"stat-number\">0%</div>\n        <div class=\"stat-text\">\n            <span class=\"bold-text\"></span> de nos ingrédients sont soigneusement sélectionnés pour garantir efficacité, pureté et respect de votre peau.\n        </div>\n    </div>\n</div>\n\n<script>\n// Fonction pour animer les chiffres\nfunction animateNumber(element, target, duration) {\n    let start = 0;\n    const stepTime = Math.abs(Math.floor(duration / target));\n    const timer = setInterval(() => {\n        start++;\n        element.textContent = start + \"%\";\n        if (start === target) {\n            clearInterval(timer);\n        }\n    }, stepTime);\n}\n\n// Observer d'intersection pour détecter le scroll\nconst stats = document.querySelectorAll('.stat-box');\nconst observer = new IntersectionObserver((entries) => {\n    entries.forEach((entry) => {\n        if (entry.isIntersecting) {\n            entry.target.classList.add('visible'); // Ajoute la classe pour rendre l'élément visible\n            if (entry.target.querySelector('#stat1')) {\n                animateNumber(document.getElementById('stat1'), 98, 2000);\n            }\n            if (entry.target.querySelector('#stat2')) {\n                animateNumber(document.getElementById('stat2'), 96, 2000);\n            }\n            observer.unobserve(entry.target);\n        }\n    });\n}, { threshold: 0.5 });\n\nstats.forEach((stat) => observer.observe(stat)); // Observe chaque rectangle\n</script>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "gallery_TggCVq": {
+      "type": "gallery",
+      "blocks": {
+        "image_XiiUVx": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "image_4T8Bhj": {
+          "type": "image",
+          "settings": {
+            "caption": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XiiUVx",
+        "image_4T8Bhj"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_zqdYrT": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "ELVYNOR™",
+        "title": "Découvrez l’Histoire de Elvynor™",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_html_kQEGdK": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<section id=\"shopify-section-template--23238846808393__timeline_LgjrCt\" class=\"shopify-section section\">\n  <link href=\"//elvynor.com/cdn/shop/t/17/assets/section-timeline.css?v=64400544619885413591739487090\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  <style data-shopify=\"\">\n    .section-template--23238846808393__timeline_LgjrCt-padding {\n      padding-top: 0px;\n      padding-bottom: 32px;\n    }\n    @media screen and (min-width: 750px) {\n      .section-template--23238846808393__timeline_LgjrCt-padding {\n        padding-top: 0px;\n        padding-bottom: 64px;\n      }\n    }\n    .timeline__wrapper {\n      position: relative;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n    }\n    .timeline__line {\n      position: absolute;\n      width: 4px;\n      background-color: #d3d3d3;\n      top: 0;\n      bottom: 0;\n      left: 50%;\n      transform: translateX(-50%);\n    }\n    .timeline__event {\n      position: relative;\n      width: 90%;\n      max-width: 600px;\n      text-align: center;\n      margin: 20px 0;\n      padding: 10px;\n    }\n    .timeline__event::before {\n      content: '';\n      position: absolute;\n      width: 12px;\n      height: 12px;\n      background-color: #edb8c5;\n      border-radius: 50%;\n      left: 50%;\n      transform: translateX(-50%);\n      top: -6px;\n    }\n    @media screen and (max-width: 750px) {\n      .timeline__line {\n        width: 2px;\n      }\n      .timeline__event {\n        width: 95%;\n        font-size: 14px;\n      }\n      .timeline__event::before {\n        width: 10px;\n        height: 10px;\n        top: -5px;\n      }\n    }\n@media screen and (max-width: 750px) {\n  .timeline__line {\n    left: 0;\n    transform: none;\n  }\n  .timeline__event {\n    text-align: left;\n    padding-left: 24px;\n    width: 100%;\n  }\n  .timeline__event::before {\n    left: 0;\n    transform: none;\n  }\n}\n\n  </style>\n  <div class=\"color-background-1 section-template--23238846808393__timeline_LgjrCt-padding\">\n    <div class=\"timeline container container--normal\">\n      <div class=\"heading__section center\">\n        <p class=\"h3 subheading aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"0\"></p>\n        <h2 class=\"heading heading__style--2 video__heading aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"50\"><span></span></h2>\n      </div>\n      <div class=\"timeline__wrapper timeline__wrapper--switched\">\n        <div class=\"timeline__line\"></div>\n        <div class=\"timeline__event aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"100\">\n          <p class=\"timeline__subheading\">ÉTÉ 2022</p>\n          <h3 class=\"timeline__heading\"></h3>\n          <p class=\"timeline__text\">Création de Elvynor™ avec pour mission de transformer la routine de soin grâce à des produits innovants et efficaces.</p>\n        </div>\n        <div class=\"timeline__event aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"150\">\n          <p class=\"timeline__subheading\">Hiver 2023</p>\n          <h3 class=\"timeline__heading\"></h3>\n          <p class=\"timeline__text\">Lancement du masque enrichi aux plantes naturelles, qui s'impose rapidement comme un essentiel des soins hebdomadaires.</p>\n        </div>\n        <div class=\"timeline__event aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"200\">\n          <p class=\"timeline__subheading\">Automne 2024</p>\n          <h3 class=\"timeline__heading\"></h3>\n          <p class=\"timeline__text\">En 2024, grâce aux retours de nos clients, nous avons amélioré la formule de notre masque anti-points noirs pour le rendre encore plus efficace.</p>\n        </div>\n        <div class=\"timeline__event aos-init aos-animate\" data-aos=\"fade-up\" data-aos-delay=\"250\">\n          <p class=\"timeline__subheading\">Aujourd'hui</p>\n          <h3 class=\"timeline__heading\"></h3>\n          <p class=\"timeline__text\">Elvynor™ continue de combiner science, innovation et bien-être pour offrir des solutions de soin luxueuses accessibles à tous.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "faq_FKJLB4": {
+      "type": "faq",
+      "blocks": {
+        "question_tnhXh9": {
+          "type": "question",
+          "settings": {
+            "title": "Quels sont vos délais de livraison ?",
+            "answer": "<p>Nos délais de livraison varient selon la destination, mais généralement, les commandes sont livrées dans un délai de 5 à 10 jours ouvrables.</p>"
+          }
+        },
+        "question_Ae6fbi": {
+          "type": "question",
+          "settings": {
+            "title": "Proposez-vous des retours ou des échanges ?",
+            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
+          }
+        },
+        "question_WRL46y": {
+          "type": "question",
+          "settings": {
+            "title": "Comment puis-je suivre ma commande ?",
+            "answer": "<p>Une fois votre commande expédiée, vous recevrez un e-mail contenant un numéro de suivi. Vous pourrez l'utiliser pour suivre l'état de votre livraison sur notre site ou sur le site du transporteur.</p>"
+          }
+        },
+        "question_ipmWtR": {
+          "type": "question",
+          "settings": {
+            "title": "Le masque contient-il des ingrédients chimiques nocifs ?",
+            "answer": "<p>Non, il est formulé sans parabènes, sulfates ni produits agressifs.</p>"
+          }
+        },
+        "question_YEYLBd": {
+          "type": "question",
+          "settings": {
+            "title": "Combien de fois par semaine devrais-je l’utiliser ?",
+            "answer": "<p>Nous recommandons une utilisation de 1 à 2 fois par semaine pour des résultats optimaux.</p>"
+          }
+        },
+        "question_QmgMUm": {
+          "type": "question",
+          "settings": {
+            "title": "Convient-il à tous les types de peau ?",
+            "answer": "<p>Oui, le masque Elvynor™ est conçu pour tous les types de peau, y compris les plus sensibles.</p><p>Nous recommandons néanmoins de toujours tester le produit sur votre bras ou main avant de l'appliquer sur votre visage.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_tnhXh9",
+        "question_Ae6fbi",
+        "question_WRL46y",
+        "question_ipmWtR",
+        "question_YEYLBd",
+        "question_QmgMUm"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "<p>Si vous ne trouvez pas la réponse à votre question ici, veuillez nous contacter.</p>",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured_collections_YNkrY3",
+    "rich_text_4LEnxJ",
+    "featured_product_mejHx9",
+    "image_with_text_iprbJm",
+    "image_with_text_Cdw8WP",
+    "custom_html_QBqBT9",
+    "gallery_TggCVq",
+    "rich_text_zqdYrT",
+    "custom_html_kQEGdK",
+    "faq_FKJLB4"
+  ]
+}
