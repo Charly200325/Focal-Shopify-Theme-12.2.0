@@ -1016,25 +1016,34 @@ font-family: "Hanken Grotesk" !important;
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  // Intercepte avant l'ajout au panier pour bloquer la redirection automatique
-  document.addEventListener('product:adding-to-cart', function(event) {
-    event.preventDefault(); // bloque le comportement par défaut (redirection)
-  });
+  const gpButton = document.querySelector('gp-product-button');
 
-  // Ouvre le drawer quand le produit est ajouté au panier
-  document.addEventListener('product:added-to-cart', function () {
-    const drawer = document.querySelector('.drawer');
-    if (drawer) {
-      if (typeof drawer.open === 'boolean') {
-        drawer.open = true;
-      } else if (typeof drawer.open === 'function') {
-        drawer.open();
+  if (!gpButton) {
+    console.warn('Bouton gp-product-button non trouvé');
+    return;
+  }
+
+  gpButton.addEventListener('click', function(event) {
+    event.preventDefault();  // Empêche la redirection automatique
+
+    // Ici, tu dois déclencher l'ajout au panier par le code GemPage ou API (si possible)
+    // Si ce n'est pas possible, il faut vérifier la doc GemPage pour ajout en Ajax
+
+    // Ouvre le drawer avec un léger délai (pour laisser le temps à l'ajout)
+    setTimeout(() => {
+      const drawer = document.querySelector('.drawer');
+      if (drawer) {
+        if (typeof drawer.open === 'boolean') {
+          drawer.open = true;
+        } else if (typeof drawer.open === 'function') {
+          drawer.open();
+        } else {
+          drawer.classList.add('is-open');
+        }
       } else {
-        drawer.classList.add('is-open');
+        console.warn('Drawer non trouvé');
       }
-    } else {
-      console.warn('Drawer non trouvé');
-    }
+    }, 500);
   });
 });
 </script>
