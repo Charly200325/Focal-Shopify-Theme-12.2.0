@@ -1012,6 +1012,23 @@ font-family: "Hanken Grotesk" !important;
   gp-label-unavailable="Unavailable" 
   gp-data="{&quot;setting&quot;:{&quot;actionEffect&quot;:&quot;open-cart-drawer&quot;,&quot;errorMessage&quot;:&quot;Cannot add product to cart&quot;,&quot;successMessage&quot;:&quot;Add product to cart successfully&quot;,&quot;enableSuccessMessage&quot;:false,&quot;enableErrorMessage&quot;:true,&quot;label&quot;:&quot;Add to cart&quot;,&quot;outOfStockLabel&quot;:&quot;Out of stock&quot;,&quot;errorType&quot;:&quot;built-in&quot;},&quot;styles&quot;:{&quot;errorTypo&quot;:{&quot;attrs&quot;:{&quot;color&quot;:&quot;error&quot;},&quot;type&quot;:&quot;paragraph-2&quot;},&quot;successTypo&quot;:{&quot;attrs&quot;:{&quot;color&quot;:&quot;success&quot;},&quot;type&quot;:&quot;paragraph-2&quot;}},&quot;variantID&quot;:&quot;46347707842777&quot;,&quot;totalVariant&quot;:&quot;6&quot;}" 
   data-variant-selection-required-message="Please select a variant to add product to cart">
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('product:added-to-cart', function() {
+    // Tente d’ouvrir le drawer s’il est supporté
+    if (window.Shopify && typeof Shopify.designMode === 'boolean') {
+      document.dispatchEvent(new CustomEvent('shopify:section:cart-drawer-open'));
+    }
+
+    // Sinon, essaye une méthode alternative (selon les thèmes)
+    const drawer = document.querySelector('cart-drawer, .cart-drawer');
+    if (drawer && drawer.open) {
+      drawer.open();
+    }
+  });
+});
+</script>
+
 
 
         
