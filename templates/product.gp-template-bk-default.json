@@ -9,93 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "text_Lb3qnK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>4.8/5 ★★★★★ (<strong>+1285 </strong>Clients Satisfaitst)</p>"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "kaching_bundles_app_block_fcBciY": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": false,
-            "atc_button_background": "#edb8c5",
-            "atc_button_text_color": "rgba(0,0,0,0)",
-            "buy_now_button_background": "rgba(0,0,0,0)",
-            "buy_now_button_text_color": "rgba(0,0,0,0)"
-          }
-        },
-        "liquid_P4qDxz": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n  .section-content {\n    display: none;\n    padding: 15px;\n    background-color: #ffffff;\n    margin-top: 10px;\n    text-align: left;\n    line-height: 1.6;\n  }\n\n  .toggle-button {\n    cursor: pointer;\n    font-weight: bold;\n    color: #333;\n    padding: 10px;\n    background-color: transparent;\n    border: 1px solid #ddd;\n    text-align: left;\n    width: 100%;\n    border-radius: 5px;\n    margin-bottom: 10px;\n  }\n\n  .toggle-button:hover {\n    background-color: #f3f3f3;\n  }\n\n  .toggle-symbol {\n    font-weight: bold;\n    float: right;\n  }\n\n  ul {\n    padding-left: 20px;\n  }\n\n  li {\n    margin-bottom: 15px;\n  }\n\n  .section-content p {\n    margin-top: 15px;\n  }\n</style>\n\n<div class=\"reductible-section\">\n  <button class=\"toggle-button\" onclick=\"toggleContent('section-1')\">\n    Produktbeschreibung\n    <span id=\"symbol-1\" class=\"toggle-symbol\">+</span>\n  </button>\n  <div id=\"section-1\" class=\"section-content\">\n    <strong>✨ Lambéna Anti-Mitesser-Maske, von Elvynor™</strong>\n    <p>Verleihen Sie Ihrer Haut eine echte Transformation und enthüllen Sie ihren gesamten Glanz. 🌙✨\n    Reinventieren Sie Ihre Schönheitsroutine mit der Lambéna Anti-Mitesser-Maske, von Elvynor™, dem ultimativen Geheimnis für eine gereinigte, glatte und strahlende Haut. Entwickelt, um die Poren tief zu reinigen, entfernt diese innovative Maske effektiv Mitesser und Unreinheiten, sodass Ihre Haut nach jeder Anwendung weich, rein und revitalisiert ist. ✨</p>\n    <ul>\n      <li><strong>✔ Intensive Reinigung:</strong> Ihre Formel, angereichert mit natürlichen Inhaltsstoffen, reinigt die Poren und entfernt Unreinheiten.</li>\n      <li><strong>✔ Reduzierung von Mitessern:</strong> Entfernt bis zu 98 % der Mitesser bereits bei der ersten Anwendung.</li>\n      <li><strong>✔ Beruhigte Haut:</strong> Dank des Aloe Vera-Extrakts wird Ihre Haut hydratisiert und beruhigt.</li>\n      <li><strong>✔ Regulierung des Sebums:</strong> Hilft, überschüssiges Sebum zu kontrollieren, für eine matte und strahlende Haut den ganzen Tag über.</li>\n    </ul>\n    <p><strong>Gebrauchsanweisung für optimale Ergebnisse:</strong></p>\n    <ul>\n      <li>Tauchen Sie das geschlossene Glas für etwa zehn Minuten in ein Wasserbad, damit es sich verflüssigen kann.</li>\n      <li>Reinigen Sie Ihr Gesicht mit warmem Wasser oder legen Sie ein warmes Handtuch auf Ihr Gesicht, um die Poren zu öffnen.</li>\n      <li>Tragen Sie eine dünne Schicht der Maske auf die zu behandelnden Bereiche Ihres Gesichts auf.</li>\n      <li>Platzieren Sie die Streifen auf der aufgetragenen Maske.</li>\n      <li>Lassen Sie die Maske 10 Minuten lang trocknen.</li>\n      <li>Ziehen Sie die Streifen vorsichtig ab, um Unreinheiten zu entfernen und eine gereinigte und strahlende Haut zu enthüllen.</li>\n    </ul>\n    <p>Die Elvynor™-Maske ist für alle Hauttypen geeignet und wurde entwickelt, um den Bedürfnissen von empfindlicher, trockener, fettiger oder Mischhaut gerecht zu werden. Sie ist frei von Parabenen und aggressiven Chemikalien und respektiert Ihre Haut, während sie sie verwöhnt, wie sie es verdient.</p>\n    <p><strong>✨ Ihre Haut hat noch nie so gut ausgesehen! Bestellen Sie jetzt und lassen Sie die Vorteile der Pflanzen Ihre Haut mit Elvynor™ verfeinern. ✨</strong></p>\n  </div>\n</div>\n\n<div class=\"reductible-section\">\n  <button class=\"toggle-button\" onclick=\"toggleContent('section-2')\">\n    Lieferung & Rückgabe\n    <span id=\"symbol-2\" class=\"toggle-symbol\">+</span>\n  </button>\n  <div id=\"section-2\" class=\"section-content\">\n    <p><strong>📦 Lieferzeiten:</strong> Wir bearbeiten Bestellungen innerhalb von 24-48 Stunden. Lieferung in 6 bis 10 Werktagen.</p>\n    <p><strong>🔁 Rückgabebedingungen:</strong> Rückgabe innerhalb von 30 Tagen, wenn unbenutzt und in der Originalverpackung.</p>\n  </div>\n</div>\n\n<div class=\"reductible-section\">\n  <button class=\"toggle-button\" onclick=\"toggleContent('section-3')\">\n    Inhalt & Inhaltsstoffe\n    <span id=\"symbol-3\" class=\"toggle-symbol\">+</span>\n  </button>\n  <div id=\"section-3\" class=\"section-content\">\n    <p><strong>Inhalt:</strong> 30 g (1,05 oz), für 15 bis 20 Anwendungen.</p>\n    <p><strong>Hauptbestandteile:</strong></p>\n    <ul>\n      <li><strong>• Natürlicher Aloe Vera-Extrakt:</strong> hydratisiert, beruhigt und fördert die Heilung.</li>\n      <li><strong>• Portulaca oleracea-Extrakt:</strong> reich an Antioxidantien, schützt und beruhigt die Haut.</li>\n      <li><strong>• Hyaluronsäure:</strong> hydratisiert tiefenwirksam und polstert die Haut auf.</li>\n      <li><strong>• Dipotassium Glycyrrhizate:</strong> reduziert Rötungen und beruhigt Irritationen.</li>\n      <li><strong>• Aktivkohle:</strong> absorbiert überschüssiges Sebum und reinigt die Poren.</li>\n      <li><strong>• Portulaköl:</strong> nährt, regeneriert und lindert Entzündungen.</li>\n    </ul>\n    <p><strong>Vollständige Inhaltsstoffliste:</strong> Aqua, Polyvinylalkohol, Gelatine, Titandioxid usw.</p>\n  </div>\n</div>\n\n<script>\n  function toggleContent(sectionId) {\n    var content = document.getElementById(sectionId);\n    var symbol = document.getElementById('symbol-' + sectionId.split('-')[1]);\n\n    if (content.style.display === \"none\" || content.style.display === \"\") {\n      content.style.display = \"block\";\n      symbol.innerHTML = \"-\";\n    } else {\n      content.style.display = \"none\";\n      symbol.innerHTML = \"+\";\n    }\n  }\n</script>"
-          }
-        },
-        "text_BjJcVp": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<h2><strong>Masque anti-points noirs Elvynor™</strong></h2><h3><strong>Offrez à votre peau une véritable transformation et révélez tout son éclat.</strong> 🌙 <strong>✨</strong></h3><p>Réinventez votre routine beauté avec <strong>le Masque Anti-Points Noirs Elvynor™</strong> , le secret ultime pour une peau nette, lisse et éclatante. Ce masque innovant est conçu pour ouvrir en profondeur les pores obstrués et éliminer efficacement les points noirs et les impuretés. Votre peau reste douce, nette et revitalisée après chaque utilisation. ✨</p><h3><strong>Pourquoi choisir le masque Elvynor™ ?</strong></h3><p><strong> </strong>✔ <strong>Nettoyage intensif</strong> : La formule enrichie en ingrédients naturels ouvre les pores et élimine les impuretés.</p><p>✔ <strong>Réduction des points noirs</strong> : Élimine jusqu'à 98% des points noirs dès la première application.</p><p>✔ <strong>Peau apaisée</strong> : Grâce à l'extrait d'aloe vera, votre peau est hydratée et apaisée.</p><p>✔ <strong>Contrôle du sébum</strong> : Aide à contrôler l’excès de sébum pour une peau mate et éclatante – toute la journée.</p><h3>Mode d'emploi pour un résultat optimal :</h3><p>1. Placez le bocal fermé dans un bain-marie pendant une dizaine de minutes pour permettre au liquide de se liquéfier.</p><p>2. Nettoyez votre visage avec de l’eau tiède ou placez une serviette chaude sur votre visage pour ouvrir les pores.</p><p>3. Appliquer une fine couche du masque sur les zones du visage à traiter.</p><p>4. Placez les bandes sur le masque appliqué.</p><p>5. Laissez sécher 10 minutes.</p><p>6. Retirez délicatement les bandes pour éliminer les impuretés et révéler une peau claire et éclatante.</p><h3><strong>Convient à tous les types de peau</strong></h3><p>Le <strong>masque Elvynor™</strong> est conçu pour<br/>répondre aux besoins des peaux sensibles, sèches, grasses ou mixtes. Formulé sans parabènes ni produits chimiques agressifs, il respecte votre peau et la chouchoute comme elle le mérite.</p><h3><strong>Le luxe au quotidien à la simple pression d'un bouton</strong></h3><p>Offrez à votre peau le soin qu'elle mérite avec le masque anti-points noirs de Lambéna, inspiré des meilleurs instituts de beauté. Avec Elvinor™<br/>votre routine beauté devient un véritable rituel de nettoyage et d’éclat.</p><p><strong>✨ Votre peau n’a jamais été aussi belle ! Commandez maintenant et<br/>laissez les effets bénéfiques des plantes agir sur votre peau avec Elvynor™. ✨</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_Lb3qnK",
-        "quantity_selector",
-        "kaching_bundles_app_block_fcBciY",
-        "buy_buttons",
-        "liquid_P4qDxz",
-        "text_BjJcVp"
-      ],
-      "settings": {
-        "show_vendor": false,
-        "show_sku": false,
-        "show_taxes_included": false,
-        "show_product_rating": false,
-        "show_sticky_add_to_cart": true,
-        "show_share_buttons": false,
-        "help_page": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "show_thumbnails_on_mobile": false,
-        "desktop_thumbnails_position": "bottom",
-        "transition_effect": "slide"
-      }
-    },
-    "rich_text_CfLm49": {
-      "type": "rich-text",
-      "settings": {
-        "subheading": "Elvynor™",
-        "title": "LE SECRET D'UNE PEAU RADIEUSE",
-        "content": "<p><em>Découvrez pourquoi des milliers de femmes ont adopté le masque Elvynor™. Sa formule unique associe des ingrédients premium pour sublimer chaque type de peau et éliminer les filaments sébacés efficacement dès la </em>première<em> utilisation.</em></p>",
-        "button_text": "",
-        "button_link": "",
-        "background_type": "full_width",
-        "text_width": "fill",
-        "text_position": "center",
-        "text_alignment": "center",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "custom_html_LWQbBM": {
       "type": "custom-html",
       "settings": {
@@ -108,36 +21,82 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "image_with_text_kAmhdJ": {
-      "type": "image-with-text",
+    "faq_7y6Eq4": {
+      "type": "faq",
       "blocks": {
-        "item_FixEzy": {
-          "type": "item",
+        "question_Di8aRe": {
+          "type": "question",
           "settings": {
-            "image": "shopify://shop_images/great_pictures_can_be_a_little_messy_sometimes_swipe_till_the_end_to_know_what_I_mean_so_happy_with_these_results_from_my_campaign_for_pureleibeauty_Model-_janacharbonnier-Photoroom_bef8e2a9-fefb-46c8-96d7-3d8f0bc21dc2.png",
-            "tab_label": "",
-            "subheading": "Elvynor™",
-            "title": "UN RÉSULTAT VISIBLE DÈS LA PREMIÈRE APPLICATION",
-            "content": "<p>Avec Elvynor™, éliminez vos points noirs et filaments sébacés, purifiez vos pores et révélez une peau plus lisse, nette et éclatante dès la première utilisation, grâce à une formule unique enrichie en actifs purifiants et régulateurs de sébum.</p>",
-            "button_text": "",
-            "button_link": ""
+            "title": "Est-il testé dermatologiquement ?",
+            "answer": "<p>Oui, nos produits sont testés sous contrôle dermatologique pour garantir leur sécurité et efficacité.</p>"
+          }
+        },
+        "question_FRkBnE": {
+          "type": "question",
+          "settings": {
+            "title": "Combien de fois par semaine devrais-je l’utiliser ?",
+            "answer": "<p>Nous recommandons une utilisation de 1 à 2 fois par semaine pour des résultats optimaux.</p>"
+          }
+        },
+        "question_H9c8NG": {
+          "type": "question",
+          "settings": {
+            "title": "Le masque contient-il des ingrédients chimiques nocifs ?",
+            "answer": "<p>Non, il est formulé sans parabènes, sulfates ni produits agressifs.</p>"
+          }
+        },
+        "question_MnbQjc": {
+          "type": "question",
+          "settings": {
+            "title": "Proposez-vous des retours ou des échanges ?",
+            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
+          }
+        },
+        "question_YWJctY": {
+          "type": "question",
+          "settings": {
+            "title": "Quels résultats puis-je attendre ?",
+            "answer": "<p>Points noirs et filaments sébacés éliminés, pores purifiés, une peau plus lisse, nette et éclatante dès les premières applications.</p>"
+          }
+        },
+        "question_dfXiYx": {
+          "type": "question",
+          "settings": {
+            "title": "Convient-il à tous les types de peau ?",
+            "answer": "<p>Oui, le masque Elvynor™ est conçu pour tous les types de peau, y compris les plus sensibles.</p><p>Nous recommandons néanmoins de toujours tester le produit sur votre bras ou main avant de l'appliquer sur votre visage.</p>"
+          }
+        },
+        "question_dn6CH6": {
+          "type": "question",
+          "settings": {
+            "title": "Quels sont vos délais de livraison ?",
+            "answer": "<p>Nos délais de livraison varient selon la destination, mais généralement, les commandes sont livrées dans un délai de 5 à 10 jours ouvrables.</p>"
+          }
+        },
+        "question_iaD3rf": {
+          "type": "question",
+          "settings": {
+            "title": "Comment puis-je suivre ma commande ?",
+            "answer": "<p>Une fois votre commande expédiée, vous recevrez un e-mail contenant un numéro de suivi. Vous pourrez l'utiliser pour suivre l'état de votre livraison sur notre site ou sur le site du transporteur.</p>"
           }
         }
       },
       "block_order": [
-        "item_FixEzy"
+        "question_dn6CH6",
+        "question_MnbQjc",
+        "question_iaD3rf",
+        "question_Di8aRe",
+        "question_YWJctY",
+        "question_H9c8NG",
+        "question_FRkBnE",
+        "question_dfXiYx"
       ],
       "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "<p>Si vous ne trouvez pas la réponse à votre question ici, veuillez nous contacter.</p>",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "gallery_agMj46": {
@@ -170,6 +129,37 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "gp_shopify_original_section_566610819782018089": {
+      "type": "gp-section-566610819782018089",
+      "settings": {
+        "section_preload": "true",
+        "checksum": ""
+      }
+    },
+    "gp_shopify_original_section_566611588094624705": {
+      "type": "gp-section-566611588094624705",
+      "settings": {
+        "checksum": ""
+      }
+    },
+    "gp_shopify_original_section_566613271000384421": {
+      "type": "gp-section-566613271000384421",
+      "settings": {
+        "checksum": ""
+      }
+    },
+    "gp_shopify_original_section_566615858533631057": {
+      "type": "gp-section-566615858533631057",
+      "settings": {
+        "checksum": ""
+      }
+    },
+    "gp_shopify_original_section_566616614028444609": {
+      "type": "gp-section-566616614028444609",
+      "settings": {
+        "checksum": ""
+      }
+    },
     "image_with_text_NDxBVD": {
       "type": "image-with-text",
       "blocks": {
@@ -194,6 +184,38 @@
         "background_type": "full_width",
         "background_overlap": "image",
         "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "image_with_text_kAmhdJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_FixEzy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/great_pictures_can_be_a_little_messy_sometimes_swipe_till_the_end_to_know_what_I_mean_so_happy_with_these_results_from_my_campaign_for_pureleibeauty_Model-_janacharbonnier-Photoroom_bef8e2a9-fefb-46c8-96d7-3d8f0bc21dc2.png",
+            "tab_label": "",
+            "subheading": "Elvynor™",
+            "title": "UN RÉSULTAT VISIBLE DÈS LA PREMIÈRE APPLICATION",
+            "content": "<p>Avec Elvynor™, éliminez vos points noirs et filaments sébacés, purifiez vos pores et révélez une peau plus lisse, nette et éclatante dès la première utilisation, grâce à une formule unique enrichie en actifs purifiants et régulateurs de sébum.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_FixEzy"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
         "text_alignment": "center",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
@@ -256,39 +278,78 @@
         "overlay_opacity": 0
       }
     },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#edb8c5",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "kaching_bundles_app_block_fcBciY": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "liquid_P4qDxz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .section-content {\n    display: none;\n    padding: 15px;\n    background-color: #ffffff;\n    margin-top: 10px;\n    text-align: left;\n    line-height: 1.6;\n  }\n\n  .toggle-button {\n    cursor: pointer;\n    font-weight: bold;\n    color: #333;\n    padding: 10px;\n    background-color: transparent;\n    border: 1px solid #ddd;\n    text-align: left;\n    width: 100%;\n    border-radius: 5px;\n    margin-bottom: 10px;\n  }\n\n  .toggle-button:hover {\n    background-color: #f3f3f3;\n  }\n\n  .toggle-symbol {\n    font-weight: bold;\n    float: right;\n  }\n\n  ul {\n    padding-left: 20px;\n  }\n\n  li {\n    margin-bottom: 15px;\n  }\n\n  .section-content p {\n    margin-top: 15px;\n  }\n</style>\n\n<div class=\"reductible-section\">\n  <button class=\"toggle-button\" onclick=\"toggleContent('section-1')\">\n    Produktbeschreibung\n    <span id=\"symbol-1\" class=\"toggle-symbol\">+</span>\n  </button>\n  <div id=\"section-1\" class=\"section-content\">\n    <strong>✨ Lambéna Anti-Mitesser-Maske, von Elvynor™</strong>\n    <p>Verleihen Sie Ihrer Haut eine echte Transformation und enthüllen Sie ihren gesamten Glanz. 🌙✨\n    Reinventieren Sie Ihre Schönheitsroutine mit der Lambéna Anti-Mitesser-Maske, von Elvynor™, dem ultimativen Geheimnis für eine gereinigte, glatte und strahlende Haut. Entwickelt, um die Poren tief zu reinigen, entfernt diese innovative Maske effektiv Mitesser und Unreinheiten, sodass Ihre Haut nach jeder Anwendung weich, rein und revitalisiert ist. ✨</p>\n    <ul>\n      <li><strong>✔ Intensive Reinigung:</strong> Ihre Formel, angereichert mit natürlichen Inhaltsstoffen, reinigt die Poren und entfernt Unreinheiten.</li>\n      <li><strong>✔ Reduzierung von Mitessern:</strong> Entfernt bis zu 98 % der Mitesser bereits bei der ersten Anwendung.</li>\n      <li><strong>✔ Beruhigte Haut:</strong> Dank des Aloe Vera-Extrakts wird Ihre Haut hydratisiert und beruhigt.</li>\n      <li><strong>✔ Regulierung des Sebums:</strong> Hilft, überschüssiges Sebum zu kontrollieren, für eine matte und strahlende Haut den ganzen Tag über.</li>\n    </ul>\n    <p><strong>Gebrauchsanweisung für optimale Ergebnisse:</strong></p>\n    <ul>\n      <li>Tauchen Sie das geschlossene Glas für etwa zehn Minuten in ein Wasserbad, damit es sich verflüssigen kann.</li>\n      <li>Reinigen Sie Ihr Gesicht mit warmem Wasser oder legen Sie ein warmes Handtuch auf Ihr Gesicht, um die Poren zu öffnen.</li>\n      <li>Tragen Sie eine dünne Schicht der Maske auf die zu behandelnden Bereiche Ihres Gesichts auf.</li>\n      <li>Platzieren Sie die Streifen auf der aufgetragenen Maske.</li>\n      <li>Lassen Sie die Maske 10 Minuten lang trocknen.</li>\n      <li>Ziehen Sie die Streifen vorsichtig ab, um Unreinheiten zu entfernen und eine gereinigte und strahlende Haut zu enthüllen.</li>\n    </ul>\n    <p>Die Elvynor™-Maske ist für alle Hauttypen geeignet und wurde entwickelt, um den Bedürfnissen von empfindlicher, trockener, fettiger oder Mischhaut gerecht zu werden. Sie ist frei von Parabenen und aggressiven Chemikalien und respektiert Ihre Haut, während sie sie verwöhnt, wie sie es verdient.</p>\n    <p><strong>✨ Ihre Haut hat noch nie so gut ausgesehen! Bestellen Sie jetzt und lassen Sie die Vorteile der Pflanzen Ihre Haut mit Elvynor™ verfeinern. ✨</strong></p>\n  </div>\n</div>\n\n<div class=\"reductible-section\">\n  <button class=\"toggle-button\" onclick=\"toggleContent('section-2')\">\n    Lieferung & Rückgabe\n    <span id=\"symbol-2\" class=\"toggle-symbol\">+</span>\n  </button>\n  <div id=\"section-2\" class=\"section-content\">\n    <p><strong>📦 Lieferzeiten:</strong> Wir bearbeiten Bestellungen innerhalb von 24-48 Stunden. Lieferung in 6 bis 10 Werktagen.</p>\n    <p><strong>🔁 Rückgabebedingungen:</strong> Rückgabe innerhalb von 30 Tagen, wenn unbenutzt und in der Originalverpackung.</p>\n  </div>\n</div>\n\n<div class=\"reductible-section\">\n  <button class=\"toggle-button\" onclick=\"toggleContent('section-3')\">\n    Inhalt & Inhaltsstoffe\n    <span id=\"symbol-3\" class=\"toggle-symbol\">+</span>\n  </button>\n  <div id=\"section-3\" class=\"section-content\">\n    <p><strong>Inhalt:</strong> 30 g (1,05 oz), für 15 bis 20 Anwendungen.</p>\n    <p><strong>Hauptbestandteile:</strong></p>\n    <ul>\n      <li><strong>• Natürlicher Aloe Vera-Extrakt:</strong> hydratisiert, beruhigt und fördert die Heilung.</li>\n      <li><strong>• Portulaca oleracea-Extrakt:</strong> reich an Antioxidantien, schützt und beruhigt die Haut.</li>\n      <li><strong>• Hyaluronsäure:</strong> hydratisiert tiefenwirksam und polstert die Haut auf.</li>\n      <li><strong>• Dipotassium Glycyrrhizate:</strong> reduziert Rötungen und beruhigt Irritationen.</li>\n      <li><strong>• Aktivkohle:</strong> absorbiert überschüssiges Sebum und reinigt die Poren.</li>\n      <li><strong>• Portulaköl:</strong> nährt, regeneriert und lindert Entzündungen.</li>\n    </ul>\n    <p><strong>Vollständige Inhaltsstoffliste:</strong> Aqua, Polyvinylalkohol, Gelatine, Titandioxid usw.</p>\n  </div>\n</div>\n\n<script>\n  function toggleContent(sectionId) {\n    var content = document.getElementById(sectionId);\n    var symbol = document.getElementById('symbol-' + sectionId.split('-')[1]);\n\n    if (content.style.display === \"none\" || content.style.display === \"\") {\n      content.style.display = \"block\";\n      symbol.innerHTML = \"-\";\n    } else {\n      content.style.display = \"none\";\n      symbol.innerHTML = \"+\";\n    }\n  }\n</script>"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "text_BjJcVp": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h2><strong>Masque anti-points noirs Elvynor™</strong></h2><h3><strong>Offrez à votre peau une véritable transformation et révélez tout son éclat.</strong> 🌙 <strong>✨</strong></h3><p>Réinventez votre routine beauté avec <strong>le Masque Anti-Points Noirs Elvynor™</strong> , le secret ultime pour une peau nette, lisse et éclatante. Ce masque innovant est conçu pour ouvrir en profondeur les pores obstrués et éliminer efficacement les points noirs et les impuretés. Votre peau reste douce, nette et revitalisée après chaque utilisation. ✨</p><h3><strong>Pourquoi choisir le masque Elvynor™ ?</strong></h3><p><strong> </strong>✔ <strong>Nettoyage intensif</strong> : La formule enrichie en ingrédients naturels ouvre les pores et élimine les impuretés.</p><p>✔ <strong>Réduction des points noirs</strong> : Élimine jusqu'à 98% des points noirs dès la première application.</p><p>✔ <strong>Peau apaisée</strong> : Grâce à l'extrait d'aloe vera, votre peau est hydratée et apaisée.</p><p>✔ <strong>Contrôle du sébum</strong> : Aide à contrôler l’excès de sébum pour une peau mate et éclatante – toute la journée.</p><h3>Mode d'emploi pour un résultat optimal :</h3><p>1. Placez le bocal fermé dans un bain-marie pendant une dizaine de minutes pour permettre au liquide de se liquéfier.</p><p>2. Nettoyez votre visage avec de l’eau tiède ou placez une serviette chaude sur votre visage pour ouvrir les pores.</p><p>3. Appliquer une fine couche du masque sur les zones du visage à traiter.</p><p>4. Placez les bandes sur le masque appliqué.</p><p>5. Laissez sécher 10 minutes.</p><p>6. Retirez délicatement les bandes pour éliminer les impuretés et révéler une peau claire et éclatante.</p><h3><strong>Convient à tous les types de peau</strong></h3><p>Le <strong>masque Elvynor™</strong> est conçu pour<br/>répondre aux besoins des peaux sensibles, sèches, grasses ou mixtes. Formulé sans parabènes ni produits chimiques agressifs, il respecte votre peau et la chouchoute comme elle le mérite.</p><h3><strong>Le luxe au quotidien à la simple pression d'un bouton</strong></h3><p>Offrez à votre peau le soin qu'elle mérite avec le masque anti-points noirs de Lambéna, inspiré des meilleurs instituts de beauté. Avec Elvinor™<br/>votre routine beauté devient un véritable rituel de nettoyage et d’éclat.</p><p><strong>✨ Votre peau n’a jamais été aussi belle ! Commandez maintenant et<br/>laissez les effets bénéfiques des plantes agir sur votre peau avec Elvynor™. ✨</strong></p>"
+          }
+        },
+        "text_Lb3qnK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4.8/5 ★★★★★ (<strong>+1285 </strong>Clients Satisfaitst)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Lb3qnK",
+        "quantity_selector",
+        "kaching_bundles_app_block_fcBciY",
+        "buy_buttons",
+        "liquid_P4qDxz",
+        "text_BjJcVp"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide"
+      }
+    },
     "multi_column_p9E3Fg": {
       "type": "multi-column",
       "blocks": {
-        "item_zkpyEa": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/04_b6a48d9b-3f60-49ed-a40f-2b89e3ac7b04_1.webp",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Hannah P.",
-            "content": "<p>Vu ce produit sur TikTok, vite commandé, assez vite reçu, vite testé. Pas douloureux et on voit effectivement tous les petits points noirs collés sur le petit papier blanc. Très efficace !</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_fEhJxc": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/07_1.webp",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "Mathilde T.",
-            "content": "<p>Je commande pour la deuxième fois. Excellent produit, nettoie vraiment bien les pores et retire tous les points noirs.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
         "item_KNcB6X": {
           "type": "item",
           "settings": {
@@ -297,36 +358,6 @@
             "image_border": "rgba(0,0,0,0)",
             "title": "Quentin B.",
             "content": "<p>La texture peut surprendre, elle est un peu élastique quand on l étale. Les patchs enlèvent bien les points noirs.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_ytRLKi": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/nHA2IbseU_mid_1_aa97159b-9ce7-4b7e-bcbe-4b087316b39c.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "SABINE M.",
-            "content": "<p>Honnêtement, je ne pensais pas que ça marcherait aussi bien. Maintenant, il fait partie de ma routine.</p>",
-            "link_text": "",
-            "link_url": "",
-            "link_style": "link",
-            "text_alignment": "center",
-            "vertical_alignment": "start"
-          }
-        },
-        "item_URMNGN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/AEZ05IS0C_1.jpg",
-            "image_width": 100,
-            "image_border": "rgba(0,0,0,0)",
-            "title": "LAURA P.",
-            "content": "<p>J'adore ce masque ! Il nettoie en profondeur et ma peau reste hydratée. Plus de points noirs et une peau plus lumineuse après l'utilisation. Un incontournable dans ma routine beauté.</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -349,6 +380,36 @@
             "vertical_alignment": "start"
           }
         },
+        "item_URMNGN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/AEZ05IS0C_1.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "LAURA P.",
+            "content": "<p>J'adore ce masque ! Il nettoie en profondeur et ma peau reste hydratée. Plus de points noirs et une peau plus lumineuse après l'utilisation. Un incontournable dans ma routine beauté.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_fEhJxc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/07_1.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Mathilde T.",
+            "content": "<p>Je commande pour la deuxième fois. Excellent produit, nettoie vraiment bien les pores et retire tous les points noirs.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
         "item_yqgaMj": {
           "type": "item",
           "settings": {
@@ -357,6 +418,36 @@
             "image_border": "rgba(0,0,0,0)",
             "title": "lukas c.",
             "content": "<p> La photo parle d'elle même, EFFICACE !</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_ytRLKi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/nHA2IbseU_mid_1_aa97159b-9ce7-4b7e-bcbe-4b087316b39c.jpg",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "SABINE M.",
+            "content": "<p>Honnêtement, je ne pensais pas que ça marcherait aussi bien. Maintenant, il fait partie de ma routine.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_zkpyEa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/04_b6a48d9b-3f60-49ed-a40f-2b89e3ac7b04_1.webp",
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Hannah P.",
+            "content": "<p>Vu ce produit sur TikTok, vite commandé, assez vite reçu, vite testé. Pas douloureux et on voit effectivement tous les petits points noirs collés sur le petit papier blanc. Très efficace !</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
@@ -388,84 +479,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "faq_7y6Eq4": {
-      "type": "faq",
-      "blocks": {
-        "question_dn6CH6": {
-          "type": "question",
-          "settings": {
-            "title": "Quels sont vos délais de livraison ?",
-            "answer": "<p>Nos délais de livraison varient selon la destination, mais généralement, les commandes sont livrées dans un délai de 5 à 10 jours ouvrables.</p>"
-          }
-        },
-        "question_MnbQjc": {
-          "type": "question",
-          "settings": {
-            "title": "Proposez-vous des retours ou des échanges ?",
-            "answer": "<p>Oui, nous offrons une politique de retour de 30 jours. Si vous n'êtes pas satisfait de votre achat, vous pouvez retourner les articles non portés et non utilisés pour un remboursement ou un échange.</p>"
-          }
-        },
-        "question_iaD3rf": {
-          "type": "question",
-          "settings": {
-            "title": "Comment puis-je suivre ma commande ?",
-            "answer": "<p>Une fois votre commande expédiée, vous recevrez un e-mail contenant un numéro de suivi. Vous pourrez l'utiliser pour suivre l'état de votre livraison sur notre site ou sur le site du transporteur.</p>"
-          }
-        },
-        "question_Di8aRe": {
-          "type": "question",
-          "settings": {
-            "title": "Est-il testé dermatologiquement ?",
-            "answer": "<p>Oui, nos produits sont testés sous contrôle dermatologique pour garantir leur sécurité et efficacité.</p>"
-          }
-        },
-        "question_YWJctY": {
-          "type": "question",
-          "settings": {
-            "title": "Quels résultats puis-je attendre ?",
-            "answer": "<p>Points noirs et filaments sébacés éliminés, pores purifiés, une peau plus lisse, nette et éclatante dès les premières applications.</p>"
-          }
-        },
-        "question_H9c8NG": {
-          "type": "question",
-          "settings": {
-            "title": "Le masque contient-il des ingrédients chimiques nocifs ?",
-            "answer": "<p>Non, il est formulé sans parabènes, sulfates ni produits agressifs.</p>"
-          }
-        },
-        "question_FRkBnE": {
-          "type": "question",
-          "settings": {
-            "title": "Combien de fois par semaine devrais-je l’utiliser ?",
-            "answer": "<p>Nous recommandons une utilisation de 1 à 2 fois par semaine pour des résultats optimaux.</p>"
-          }
-        },
-        "question_dfXiYx": {
-          "type": "question",
-          "settings": {
-            "title": "Convient-il à tous les types de peau ?",
-            "answer": "<p>Oui, le masque Elvynor™ est conçu pour tous les types de peau, y compris les plus sensibles.</p><p>Nous recommandons néanmoins de toujours tester le produit sur votre bras ou main avant de l'appliquer sur votre visage.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "question_dn6CH6",
-        "question_MnbQjc",
-        "question_iaD3rf",
-        "question_Di8aRe",
-        "question_YWJctY",
-        "question_H9c8NG",
-        "question_FRkBnE",
-        "question_dfXiYx"
-      ],
-      "settings": {
-        "show_navigation": false,
-        "title": "FAQ",
-        "content": "<p>Si vous ne trouvez pas la réponse à votre question ici, veuillez nous contacter.</p>",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "product-content": {
       "type": "product-content",
       "disabled": true,
@@ -479,6 +492,24 @@
         "recommendations_count": 4,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_CfLm49": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "Elvynor™",
+        "title": "LE SECRET D'UNE PEAU RADIEUSE",
+        "content": "<p><em>Découvrez pourquoi des milliers de femmes ont adopté le masque Elvynor™. Sa formule unique associe des ingrédients premium pour sublimer chaque type de peau et éliminer les filaments sébacés efficacement dès la </em>première<em> utilisation.</em></p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     }
   },
@@ -494,6 +525,11 @@
     "multi_column_p9E3Fg",
     "faq_7y6Eq4",
     "product-content",
-    "product-recommendations"
+    "product-recommendations",
+    "gp_shopify_original_section_566610819782018089",
+    "gp_shopify_original_section_566611588094624705",
+    "gp_shopify_original_section_566616614028444609",
+    "gp_shopify_original_section_566613271000384421",
+    "gp_shopify_original_section_566615858533631057"
   ]
 }
