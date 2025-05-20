@@ -68,14 +68,14 @@
         "image_fDtwKE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_26_77e2555c-4b3a-48b3-8871-ffe68b281e75.png",
+            "image": "shopify://shop_images/a6e1083b-fde6-4333-a241-15b664c8c320_removalai_preview.png",
             "image_width": 200
           }
         },
         "links": {
           "type": "links",
           "settings": {
-            "menu": "menu"
+            "menu": "menu-pied-de-page"
           }
         },
         "text_iyNU3k": {
