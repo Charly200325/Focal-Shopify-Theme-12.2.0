@@ -1016,15 +1016,21 @@ font-family: "Hanken Grotesk" !important;
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  // Intercepte avant l'ajout au panier pour bloquer la redirection automatique
+  document.addEventListener('product:adding-to-cart', function(event) {
+    event.preventDefault(); // bloque le comportement par défaut (redirection)
+  });
+
+  // Ouvre le drawer quand le produit est ajouté au panier
   document.addEventListener('product:added-to-cart', function () {
     const drawer = document.querySelector('.drawer');
     if (drawer) {
       if (typeof drawer.open === 'boolean') {
-        drawer.open = true;        // ouvre si open est une propriété booléenne
+        drawer.open = true;
       } else if (typeof drawer.open === 'function') {
-        drawer.open();             // ouvre si open est une méthode
+        drawer.open();
       } else {
-        drawer.classList.add('is-open'); // fallback : ajoute classe CSS d’ouverture
+        drawer.classList.add('is-open');
       }
     } else {
       console.warn('Drawer non trouvé');
@@ -1035,12 +1041,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-
-
-
-
-
-        
   <gp-button>
   <div style="--bs:none;--bw:1px 1px 1px 1px;--bc:#121212;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--mt:0px;--mb:9px;--pl:0px;--pr:0px;--ta:left" >
     <style>
