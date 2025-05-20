@@ -1026,11 +1026,36 @@ document.addEventListener('DOMContentLoaded', function () {
   gpButton.addEventListener('click', function(event) {
     event.preventDefault();  // Empêche la redirection automatique
 
-    // Ici, tu dois déclencher l'ajout au panier par le code GemPage ou API (si possible)
-    // Si ce n'est pas possible, il faut vérifier la doc GemPage pour ajout en Ajax
+    // Récupérer l’ID du variant depuis gp-data (à adapter selon ta structure)
+    // Ici je suppose que gp-data est un JSON stringifié dans l’attribut gp-data
+    let gpData;
+    try {
+      gpData = JSON.parse(gpButton.getAttribute('gp-data').replace(/&quot;/g,'"'));
+    } catch(e) {
+      console.error('Erreur parse gp-data', e);
+      return;
+    }
 
-    // Ouvre le drawer avec un léger délai (pour laisser le temps à l'ajout)
-    setTimeout(() => {
+    const variantId = gpData.variantID || gpData.setting?.variantID;
+    if (!variantId) {
+      console.error('variantID introuvable dans gp-data');
+      return;
+    }
+
+    // Ajout AJAX au panier
+    fetch('/cart/add.js', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({id: variantId, quantity: 1})
+    })
+    .then(response => {
+      if (!response.ok) throw new Error('Erreur ajout panier');
+      return response.json();
+    })
+    .then(data => {
+      console.log('Produit ajouté au panier', data);
+
+      // Ouvrir le drawer
       const drawer = document.querySelector('.drawer');
       if (drawer) {
         if (typeof drawer.open === 'boolean') {
@@ -1043,10 +1068,15 @@ document.addEventListener('DOMContentLoaded', function () {
       } else {
         console.warn('Drawer non trouvé');
       }
-    }, 500);
+    })
+    .catch(error => {
+      console.error('Erreur ajout panier:', error);
+      alert('Impossible d’ajouter au panier');
+    });
   });
 });
 </script>
+
 
 
 
