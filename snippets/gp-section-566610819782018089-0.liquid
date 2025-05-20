@@ -1024,10 +1024,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   gpButton.addEventListener('click', function(event) {
-    event.preventDefault();  // Empêche la redirection automatique
+    event.preventDefault();
 
-    // Récupérer l’ID du variant depuis gp-data (à adapter selon ta structure)
-    // Ici je suppose que gp-data est un JSON stringifié dans l’attribut gp-data
     let gpData;
     try {
       gpData = JSON.parse(gpButton.getAttribute('gp-data').replace(/&quot;/g,'"'));
@@ -1042,7 +1040,6 @@ document.addEventListener('DOMContentLoaded', function () {
       return;
     }
 
-    // Ajout AJAX au panier
     fetch('/cart/add.js', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
@@ -1055,16 +1052,10 @@ document.addEventListener('DOMContentLoaded', function () {
     .then(data => {
       console.log('Produit ajouté au panier', data);
 
-      // Ouvrir le drawer
-      const drawer = document.querySelector('.drawer');
+      // Ouvre le drawer en ajoutant l'attribut open
+      const drawer = document.querySelector('cart-drawer#mini-cart');
       if (drawer) {
-        if (typeof drawer.open === 'boolean') {
-          drawer.open = true;
-        } else if (typeof drawer.open === 'function') {
-          drawer.open();
-        } else {
-          drawer.classList.add('is-open');
-        }
+        drawer.setAttribute('open', '');
       } else {
         console.warn('Drawer non trouvé');
       }
@@ -1076,6 +1067,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+
 
 
 
