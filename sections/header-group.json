@@ -17,7 +17,10 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "Livraison Gratuite • Paiement 100% Sécurisé •  Retour Gratuit   ",
+            "text": "Livraison Gratuite   ",
+            "icon": "storefront",
+            "filled_icon": false,
+            "custom_icon": "shopify://shop_images/local_shipping_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg",
             "learn_more_text": "",
             "title": "",
             "content": "",
@@ -29,6 +32,8 @@
           "type": "message",
           "settings": {
             "text": "PROFITEZ DE NOS OFFRES EXCLUSIVES !",
+            "icon": "storefront",
+            "filled_icon": false,
             "learn_more_text": "",
             "title": "",
             "content": "",
@@ -56,10 +61,9 @@
       "type": "header",
       "settings": {
         "enable_sticky_header": true,
-        "logo": "shopify://shop_images/abb76885-3c95-408f-b7db-6f263d493b40_removalai_preview_1_aa03a994-72c1-45eb-8b97-f2b9d1ca01fe_1.png",
         "logo_max_width": 140,
         "mobile_logo_max_width": 100,
-        "navigation_menu": "menu",
+        "navigation_menu": "",
         "sidebar_navigation_menu": "",
         "header_layout": "logo_center_navigation_inline",
         "show_icons": false,
