@@ -17,10 +17,10 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "uuuu",
-            "icon": "storefront",
+            "text": "SUMMER SALE : BUY 1 GET 1 FREE!",
+            "icon": "sell",
             "filled_icon": false,
-            "custom_icon": "shopify://shop_images/local_shipping_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg",
+            "custom_icon": "shopify://shop_images/sell_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg",
             "learn_more_text": "fff",
             "title": "",
             "content": "",
@@ -31,9 +31,10 @@
         "message_Rb7RNK": {
           "type": "message",
           "settings": {
-            "text": "PROFITEZ DE NOS OFFRES EXCLUSIVES !",
+            "text": "FREE SHIPPING | ORDERS £29+",
             "icon": "storefront",
             "filled_icon": false,
+            "custom_icon": "shopify://shop_images/local_shipping_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg",
             "learn_more_text": "",
             "title": "",
             "content": "",
