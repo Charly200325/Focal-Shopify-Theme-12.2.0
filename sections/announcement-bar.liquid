@@ -75,7 +75,26 @@
                   <button class="link" data-action="open-content">{{ block.settings.text | escape }}</button>
                 {%- endif -%}
               {%- else -%}
-                <p>{{ block.settings.text | escape }}</p>
+                <p class="announcement-bar__message">
+  {% if block.settings.custom_icon != blank %}
+    <img
+      src="{{ block.settings.custom_icon | image_url }}"
+      {% if block.settings.custom_icon.alt != blank %}
+        alt="{{ block.settings.custom_icon.alt | escape }}"
+      {% else %}
+        role="presentation"
+      {% endif %}
+      class='announcement-bar__message__custom-icon'
+      height="auto"
+      width="auto"
+      loading="lazy"
+    >
+  {% elsif block.settings.icon != blank %}
+    {% render 'material-icon', icon: block.settings.icon, filled: block.settings.filled_icon %}
+  {% endif %}
+  {{ block.settings.text | escape }}
+</p>
+
               {%- endif -%}
             </div>
 

@@ -17,11 +17,11 @@
         "message-1": {
           "type": "message",
           "settings": {
-            "text": "Livraison Gratuite   ",
+            "text": "uuuu",
             "icon": "storefront",
             "filled_icon": false,
             "custom_icon": "shopify://shop_images/local_shipping_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg",
-            "learn_more_text": "",
+            "learn_more_text": "fff",
             "title": "",
             "content": "",
             "button_text": "",
